@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pragmatic Marketing Architect</title>
+  <style>
+    :root {
+      --navy: #102A56;
+      --blue: #1769E0;
+      --cyan: #42B7F5;
+      --white: #FFFFFF;
+      --pale-blue: #EEF6FF;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--navy);
+      color: var(--white);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .container {
+      width: 100%;
+      max-width: 440px;
+      text-align: center;
+    }
+    .monogram {
+      width: 80px;
+      height: 80px;
+      border: 2px solid var(--cyan);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px auto;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: var(--white);
+      background-color: rgba(23, 105, 224, 0.15);
+    }
+    h1 { font-size: 20px; font-weight: 700; margin-bottom: 6px; }
+    p.tagline {
+      font-size: 13px;
+      color: var(--cyan);
+      margin-bottom: 28px;
+      line-height: 1.4;
+    }
+    .btn-stack { display: flex; flex-direction: column; gap: 14px; }
+    .btn {
+      display: block;
+      text-decoration: none;
+      padding: 16px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.15s ease-in-out;
+      text-align: center;
+    }
+    /* Primary: High-visibility community action */
+    .btn-primary {
+      background-color: var(--blue);
+      color: var(--white);
+      border: 1px solid var(--cyan);
+      box-shadow: 0 4px 14px rgba(23, 105, 224, 0.4);
+    }
+    .btn-primary:active { transform: scale(0.98); }
+    /* Secondary: Utility resource */
+    .btn-secondary {
+      background-color: var(--pale-blue);
+      color: var(--navy);
+      border: 1px solid var(--pale-blue);
+    }
+    /* Tertiary: Direct client pathway */
+    .btn-tertiary {
+      background-color: transparent;
+      color: var(--white);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    .footer {
+      margin-top: 36px;
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.45);
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="monogram">PMA</div>
+    <h1>The Pragmatic Marketing Architect</h1>
+    <p class="tagline">Don't merely explain good marketing. Show the thinking.</p>
+    
+    <div class="btn-stack">
+      <!-- 1. Primary Highlighted Action -->
+      <a href="YOUR_GOOGLE_FORM_URL" target="_blank" rel="noopener" class="btn btn-primary">
+        🔥 Submit Your Work: Roast My Campaign
+      </a>
+      
+      <!-- 2. Free Lead Magnet -->
+      <a href="YOUR_GOOGLE_DRIVE_OR_NOTION_URL" target="_blank" rel="noopener" class="btn btn-secondary">
+        📄 Get Campaign Quality-Control Checklist (Free)
+      </a>
+      
+      <!-- 3. Direct SMB Client Booking -->
+      <a href="YOUR_CAL_COM_URL" target="_blank" rel="noopener" class="btn btn-tertiary">
+        💼 Work With Me (Local SMB Strategy Audit)
+      </a>
+    </div>
+
+    <div class="footer">
+      STRATEGY BEFORE SOFTWARE • PROOF OVER CLAIMS
+    </div>
+  </div>
+</body>
+</html>
